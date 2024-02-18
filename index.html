@@ -4,129 +4,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
+    <title>Your Name - Personal Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
-            color: #333;
         }
 
-        header {
+        nav {
             background-color: #007bff;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
+            padding: 10px;
         }
 
-        h1 {
-            margin-bottom: 10px;
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
         }
 
         section {
             padding: 20px;
-            margin: 20px;
-            background-color: white;
+            background-color: #f2f2f2;
+        }
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .placeholder-image {
+            width: 100%;
+            height: auto;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #007bff;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        .contact-info {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-
-        .contact-info p {
-            margin: 5px 0;
-        }
-
-        .project {
-            margin-bottom: 20px;
-        }
-
-        .blog {
-            margin-bottom: 20px;
-        }
-
-        .resource {
             margin-bottom: 20px;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Resume</p>
-    </header>
 
-    <section>
-        <h2>Bio</h2>
-        <p>Your bio goes here...</p>
-    </section>
+    <nav>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#resources">Resources</a></li>
+        </ul>
+    </nav>
 
-    <section>
-        <h2>Contact Information</h2>
-        <div class="contact-info">
-            <div>
-                <p>Email: your.email@example.com</p>
-                <p>Phone: (123) 456-7890</p>
-            </div>
-            <div>
-                <p>Address: 123 Main St, City, State, ZIP</p>
-            </div>
+    <section id="about-me">
+        <div class="content">
+            <h2 class="section-heading">About Me</h2>
+            <p>Your bio goes here...</p>
+            <img class="placeholder-image" src="https://via.placeholder.com/800x400" alt="Placeholder Image">
         </div>
     </section>
 
-    <section>
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1...</p>
+    <section id="resume">
+        <div class="content">
+            <h2 class="section-heading">Resume</h2>
+            <p>Your resume content goes here...</p>
+            <img class="placeholder-image" src="https://via.placeholder.com/800x400" alt="Placeholder Image">
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2...</p>
-        </div>
-        <!-- Add more projects as needed -->
     </section>
 
-    <section>
-        <h2>Blogs</h2>
-        <div class="blog">
-            <h3>Blog 1</h3>
-            <p>Description of blog 1...</p>
+    <section id="projects">
+        <div class="content">
+            <h2 class="section-heading">Projects</h2>
+            <p>Your projects content goes here...</p>
+            <img class="placeholder-image" src="https://via.placeholder.com/800x400" alt="Placeholder Image">
         </div>
-        <div class="blog">
-            <h3>Blog 2</h3>
-            <p>Description of blog 2...</p>
-        </div>
-        <!-- Add more blogs as needed -->
     </section>
 
-    <section>
-        <h2>Resources</h2>
-        <div class="resource">
-            <h3>Resource 1</h3>
-            <p>Description of resource 1...</p>
+    <section id="blogs">
+        <div class="content">
+            <h2 class="section-heading">Blogs</h2>
+            <p>Your blogs content goes here...</p>
+            <img class="placeholder-image" src="https://via.placeholder.com/800x400" alt="Placeholder Image">
         </div>
-        <div class="resource">
-            <h3>Resource 2</h3>
-            <p>Description of resource 2...</p>
-        </div>
-        <!-- Add more resources as needed -->
     </section>
+
+    <section id="interests">
+        <div class="content">
+            <h2 class="section-heading">Interests</h2>
+            <p>Your interests content goes here...</p>
+            <img class="placeholder-image" src="https://via.placeholder.com/800x400" alt="Placeholder Image">
+        </div>
+    </section>
+
+    <section id="resources">
+        <div class="content">
+            <h2 class="section-heading">Resources</h2>
+            <p>Your resources content goes here...</p>
+            <img class="placeholder-image" src="https://via.placeholder.com/800x400" alt="Placeholder Image">
+        </div>
+    </section>
+
 </body>
 
 </html>
